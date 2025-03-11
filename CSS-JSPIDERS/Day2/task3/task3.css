@@ -1,0 +1,25 @@
+.G,.g{
+    color: blue;
+    
+}
+.o,.e{
+    color: red;
+}
+.o1{
+    color: orange;
+}
+
+.l{
+    color: green;
+}
+b{
+    font-size: 200px;
+    background-color: lawngreen;
+}
+.container{
+    display: flex;
+    padding: 20px;
+    height: 800px;
+    width: 50%;
+
+}

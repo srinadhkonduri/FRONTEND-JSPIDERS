@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <fieldset style="width: 20%; border:5px double blue;">
+        <legend><h3>Form</h3></legend>
+        <form action="">
+            <label for="" >Username</label>
+            <input type="text" placeholder="enter your name" required>
+            <br><br>
+            <label for="">Password</label>
+            <input type="password" placeholder="enter your password" required>
+            <br><br>
+            <input type="submit" name="" id="">
+        </form>
+    </fieldset>
+
+    <br><br><br><br>
+    <!-- form 2 -->
+    <fieldset style="width: 50%; border:5px double green">
+        <legend><h2>form 2</h2></legend>
+        <form action="https://www.facebook.com">
+            <label for="name1">Enter your first name</label>
+            <input type="text" minlength="3" maxlength="15" id="" name="name1" placeholder="enter your first name" required>
+            <br><br>
+            <label for="name2">Enter your last name</label>
+            <input type="text" minlength="3" maxlength="15" id="" name="name2" placeholder="enter your last name" required>
+            <br><br>
+            <label for="email">enter your email</label>
+            <input type="email" name="email" placeholder="enter your email" required>
+            <br><br>
+            <label for="pass">enter password</label>
+            <input type="password" name="pass" placeholder="enter your password" required>
+            <br><br>
+            <label for="">Date</label>
+            <input type="date" min="2000-01-01" max="2060-12-31" required >
+            <br><br>
+            <label for="">Mobile</label>
+            <input type="tel" pattern="[0-9]{10}">
+            <br><br>
+            <label for="">Gender</label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender">others
+            <br><br>
+            <label for="">Skills</label>
+            <input type="checkbox" name="" id="">java
+            <input type="checkbox" name="" id="">python
+            <input type="checkbox" name="" id="" disabled>web
+            <input type="checkbox" name="" id="">sql
+            <br><br>
+            <label for="">REsume</label>
+            <input type="file">
+            <br><br>
+            <label for="">Image</label>
+            <input type="file">
+            <br><br>
+            <label for="">photo</label>
+            <input type="image" src="/asserts/images/hummingbird-8013214_1280.jpg" style="width: 50px;">
+            <br><br>
+            <label for="">States</label>
+            <select>
+                <option hidden>choose your state</option>
+                <option value="">AP</option>
+                <option value="">Tel</option>
+                <option value="">Chennai</option>
+                <option value="">kerala</option>
+            </select>
+            <br><br>
+
+            <label for="">districts</label>
+            <select>
+                <optgroup label="Andhra">
+                    <option value="" hidden>choose district</option>
+                    <option value="">prakasam</option>
+                    <option value="">kurnool</option>
+                    <option value="">chittor</option>
+                    <option value="">ananthapuram</option>
+                </optgroup>
+
+                <optgroup label="telengana">
+                    <option value="" hidden></option>
+                    <option value="">maidchel</option>
+                    <option value="">siddipeat</option>
+                    <option value="">amathakur a</option>
+                    <option value="">warangal</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <!-- selecting options based on alphabets -->
+            <label for="">Choose your ice-cream flavours</label>
+            <input list="flavours" placeholder="choose your flavour">
+            <datalist id="flavours">
+                
+                <option value="chocolate"></option>
+                <option value="vanilla"></option>
+                <option value="strawberry"></option>
+                <option value="black-current"></option>
+            </datalist>
+            <br><br>
+            <label for="">Address</label>
+            <textarea cols="50" rows="7"></textarea>
+            <br><br>
+            <input type="month"> <br><br>
+            <input type="week"> <br><br>
+            <input type="range"> <br><br>
+            <input type="color"> <br><br>
+            <label for="">Search</label>
+            <input type="search">
+
+
+
+
+
+
+            <input style="border: 2px solid green; background-color:white; border-radius:5px" type="submit" value="signin">
+            <input style="border: 2px solid green; background-color:white; border-radius:5px" type="reset" name="" id="" value="clear all">
+        </form>
+    </fieldset>
+</body>
+</html>

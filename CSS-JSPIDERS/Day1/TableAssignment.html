@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 40%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .heading{
+            background-color: green;
+        }
+        .footer{
+            background-color: gray;
+        }
+        .sub{
+            background-color: skyblue;
+        }
+        .mar{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+            <tr>
+                <th class="heading">Student Name</th>
+                <th class="heading">Subject</th>
+                <th class="heading">Marks</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td class="sub">Maths</td>
+                <td class="mar">95</td>
+            </tr>
+            <tr>
+                <td>jane Smith</td>
+                <td class="sub">Science</td>
+                <td class="mar">88</td>
+            </tr>
+            <tr>
+                <td>Alice johnson</td>
+                <td class="sub">English</td>
+                <td class="mar">92</td>
+            </tr>
+            <tr>
+                <td>Bob Brown</td>
+                <td class="sub">History</td>
+                <td class="mar">78</td>
+            </tr>
+            <tr>
+                <td class="footer" colspan="2">Total Students</td>
+                <td class="footer">4</td>
+            </tr>
+    </table>
+</body>
+</html>
