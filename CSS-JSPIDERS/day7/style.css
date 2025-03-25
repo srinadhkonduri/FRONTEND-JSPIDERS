@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#grad1{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to bottom left,blue,green,orange,red);
+    float: left;
+}
+#grad2{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to top left,red,pink,black,violet);
+    float: left;
+    margin-left: 10px;
+}
+#grad3{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(45deg,violet,indigo,blue,green,yellow,orange,red);
+    float: left;
+    margin-left: 10px;
+}
+
+#grad4{
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: repeating-linear-gradient(45deg,green 10%, blue 20%,orange 30%, violet 13%);
+    float: left;
+}
+#image{
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: red;
+    background-image: repeating-linear-gradient(45deg,pink,transparent,orange),url(../../asserts/images/galaxy/super\ robot.jpg);
+    background-size: 100% 100%;
+    margin: 10px 10px;
+}

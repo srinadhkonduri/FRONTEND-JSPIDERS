@@ -1,0 +1,56 @@
+.grandfather{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+    border: 5px solid black;
+}
+#father, #babai{
+    width: 49%;
+    height: 70%;
+    background-color: orangered;
+    float: left;
+    border: 5px solid black;
+}
+#babai{
+    background-color: yellow;
+}
+
+#you, #sib{
+    width: 48%;
+    height: 70%;
+    background-color: purple;
+    float: left;
+    border: 5px solid black;
+}
+
+#cousin1, #cousin2{
+    width: 48%;
+    height: 70%;
+    background-color: skyblue;
+    float: left;
+    border: 5px solid black;
+}
+
+/* these can be used when multiple selectors are there in the html file */
+/* descendent selectors */
+/* represented with space (_) */
+/* .grandfather #father,#babai{
+    background-color: chocolate;
+}
+
+.grandfather #sib,#you,#cousin1,#cousin2{
+    background-color: rgb(34, 223, 197);
+} */
+
+
+/* CHILD SELECTOR */
+.grandfather>#father,#babai{
+    background-color: yellow;
+}
+
+#father>#sib,#you{
+    background-color: lime;
+}
+#babai>#cousin1,#cousin2{
+    background-color: rebeccapurple;
+}

@@ -1,0 +1,11 @@
+h1{
+    font-size: 100px;
+    color: red;
+    color: rgb(0, 0, 255);
+    color: rgba(0, 255, 0, 0.219);
+    color: #8d8317;
+    color: #e30cd598;
+    color: hsla(290, 90%, 43%, 0.158);
+    color: hwb(240 23% 22%);
+    color: hwb(188 6% 18% / 0.591);
+}

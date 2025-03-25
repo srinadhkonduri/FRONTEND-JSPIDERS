@@ -1,0 +1,28 @@
+h1[class]{
+    background-color: blue;
+    width: 20%;
+}
+h1[id]{
+    background-color: green;
+}
+
+p[class]{
+    background-color: yellowgreen;
+    font-size: 30px;
+    font-family: cursive;
+}
+p[id]{
+    background-color: black;
+    color: wheat;
+    font-size: 40px;
+}
+
+a[target]{
+    background-color: violet;
+    text-decoration: none;
+}
+a[href]{
+    background-color: indianred;
+    font-size: 50px;
+    text-decoration: none;
+}

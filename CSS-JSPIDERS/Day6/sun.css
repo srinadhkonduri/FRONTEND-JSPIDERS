@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../../asserts/images/galaxy/starsBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainDiv {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#div1 {
+    float: left;
+    width: 50%;
+    height: 1900px;
+    position: relative;
+}
+#earth{
+    margin-top: 300px;
+    margin-left: 400px;
+    width: 60%;
+}
+
+/* #div1 {
+    background-size: cover;
+    background-attachment: fixed;
+    width: calc(500px + 500px);
+} */
+#sun{
+    width: calc(300px + 300px);
+    background-attachment: fixed;
+    position: fixed;
+}
+#div2 {
+    float: left;
+    width: 50%;
+    height: 1900px;
+}
+
+marquee {
+    margin-left: 150px;
+    height: 1900px;
+}

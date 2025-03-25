@@ -1,0 +1,43 @@
+#circle1{
+    height: 400px;
+    width: 400px;
+    background-color: greenyellow;
+    border: 5px solid green;
+    border-radius: 100%;
+    float: left;
+}
+#circle2{
+    height: 400px;
+    width: 400px;
+    background-image: repeating-radial-gradient(green ,blue 10%,green 15%);
+    border: 10px double gold;
+    border-radius: 30% 25% 30% 25%;
+    float: left;
+}
+#circle3{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    float: left;
+    background-image: conic-gradient(violet,indigo,blue,green,yellow,orange,red);
+    border-radius: 100px 200px 300px 400px;
+}
+
+
+#ecellipsce1{
+    width: 400px;
+    height: 400px;
+    background-color: indianred;
+    border: 10px solid black;
+    float: left;
+    border-radius: 41% 59% 100% 0% / 100% 53% 47% 0% ;
+}
+
+#ecellipsce2{
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    border: 10px solid black;
+    float: left;
+    border-radius: 0% 100% 100% 0% / 100% 0% 100% 0% ;
+}

@@ -1,0 +1,12 @@
+h1{
+    border: 10px solid black;
+    width: 40%;
+
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+    margin: 100px 200px 300px 400px;
+}

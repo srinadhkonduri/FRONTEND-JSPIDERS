@@ -1,0 +1,53 @@
+.grandfather{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+    border: 5px solid black;
+}
+#father, #babai{
+    width: 49%;
+    height: 70%;
+    background-color: orangered;
+    float: left;
+    border: 5px solid black;
+}
+#babai{
+    background-color: yellow;
+}
+
+#you, #sib,#sib2,#sib3{
+    width: 23%;
+    height: 70%;
+    background-color: purple;
+    float: left;
+    border: 5px solid black;
+}
+
+#cousin1, #cousin2,#cousin3,#cousin4{
+    width: 23%;
+    height: 70%;
+    background-color: skyblue;
+    float: left;
+    border: 5px solid black;
+}
+
+/* adjacent selector */
+#father+#babai{
+    background-color: burlywood;
+}
+#sib+#you{
+    background-color: mediumslateblue;
+}
+#sib~#sib2{
+    background-color: brown;
+}
+
+#cousin1+#cousin2{
+    background-color: black;
+}
+#cousin1~#cousin3{
+    background-color: goldenrod;
+}
+#father+#sib2{
+    background-color: antiquewhite;
+}

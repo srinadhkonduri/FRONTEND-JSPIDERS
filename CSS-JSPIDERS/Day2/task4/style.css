@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    margin: 50px;
+    height: 900px;
+    width: 70%;
+    font-size: 50px;
+}
+h1{
+    background-color: lawngreen;
+    padding-bottom: 300px;
+}
+.g{
+    color: blue;
+}
+.o{
+    color: orange;
+}
+.o1{
+    color: pink;
+}
+.l{
+    color: green;
+}
+.e{
+    color: red;
+}

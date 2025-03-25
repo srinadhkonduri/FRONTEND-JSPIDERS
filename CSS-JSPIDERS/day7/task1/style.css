@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#farside{
+    background-image: radial-gradient(farthest-side at 20% 30%, red,blue);
+}
+#closeside{
+    background-image: radial-gradient(farthest-corner at 30% 60%, yellow,blue);
+}
+#farcor{
+
+    background-image: repeating-radial-gradient(circle,black,white,black,white,
+    black,white,
+    black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,);
+}

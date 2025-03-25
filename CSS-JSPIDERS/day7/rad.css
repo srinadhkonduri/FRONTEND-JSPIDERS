@@ -1,0 +1,13 @@
+#rad1{
+    width: 600px;
+    height: 500px;
+    background-image: repeating-radial-gradient(red,yellow,blue);
+    float: left;
+}
+#rad2{
+    width: 500px;
+    height: 500px;
+    background-image: radial-gradient(circle,#572f28,#c12f1e,#d77133,#d8c2b1,yellow);
+    float: left;
+    margin-left: 30px;
+}

@@ -1,0 +1,75 @@
+h1{
+    font-size: 50px;
+}
+#solid{
+    border-width: 15px;
+    border-color: red;
+    border-style: solid;
+    width: 30%;
+}
+#double{
+    border-width: 15px;
+    border-color: blue;
+    border-style: double;
+    width: 30%;
+}
+#dotted{
+    border-width: 15px;
+    border-color: green;
+    border-style: dotted;
+    width: 30%;
+}
+#dashed{
+    border-width: 15px;
+    border-color: violet;
+    border-style: dashed;
+    width: 30%;
+}
+
+#inset{
+    border-width: 15px;
+    border-color: rgb(7, 53, 146);
+    border-style: inset;
+    width: 30%;
+}
+
+#outset{
+    border-width: 15px;
+    border-color: rgb(119, 39, 5);
+    border-style: outset;
+    width: 30%;
+}
+
+#groove{
+    border-width: 15px;
+    border-color: rgb(159, 23, 57);
+    border-style: groove;
+    width: 30%;
+}
+#ridge{
+    border-width: 15px;
+    border-color: rgb(49, 152, 5);
+    border-style: ridge;
+    width: 30%;
+}
+#none{
+    border-width: 15px;
+    border-color: violet;
+    border-style: none;
+    width: 30%;
+}
+#sun{
+    width: 30%;
+    border-width: 15px;
+    border-color: blue;
+    border-style: groove;
+}
+
+#gurugi{
+    width: 30%;
+    margin-left: 20px;
+    border: 15px inset gold;
+    border-left: 15px outset goldenrod;
+    border-right: 15px inset rgb(159, 136, 9);
+    border-radius: 20px;
+}

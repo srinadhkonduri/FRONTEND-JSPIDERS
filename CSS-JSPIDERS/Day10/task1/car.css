@@ -1,0 +1,15 @@
+h1{
+    font-size: 2.8rem;
+    padding-left: 14vh;
+    padding-top: 5vh;
+}
+#car{
+    border: 1px solid black;
+    width: 48vh;
+    height: 48vh;
+    background-color: blue;
+    background-image: url(../../../asserts/images/bmw-x4-alpine-white.jpeg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+}
