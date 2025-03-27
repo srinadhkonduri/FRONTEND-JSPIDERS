@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(28, 28, 28);
+}
+h2{
+    font-size: 80px;
+    background-image: repeating-linear-gradient(45deg,violet,indigo,blue,green,yellow,orange,red);
+    background-clip: text;
+    color: transparent;
+}

@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    background-image: url(../../../asserts/images/pawan-kalyan);
+    background-size: 100% 100%;
+}
+h1{
+    padding-top: 280px;
+    padding-left: 120px;
+    color: greenyellow;
+}
+#ram{
+    padding-top: 5px;
+    padding-left: 120px;
+    color:transparent;
+}
+
+.container:hover{
+    background-image: url(../../../asserts/images/ram-charan);
+    border-radius: 50%;
+    
+}
+
+
+.container:hover #pawan{
+color: transparent;
+}
+.container:hover #ram{
+    color: black;
+}

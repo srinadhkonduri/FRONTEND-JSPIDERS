@@ -1,0 +1,3 @@
+<table>........</table> = begin and end of the table.
+<tr> </tr> ==> creates table row.
+<td> </td> ==> creates table data.

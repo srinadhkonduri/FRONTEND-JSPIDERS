@@ -1,0 +1,29 @@
+a{
+    font-size: 100px;
+    text-decoration: none;
+}
+
+/* 1. link tag */
+a:link{
+    background-color: aqua;
+    color: red;
+    border-radius: 20px;
+}
+
+/* 2. visited */
+a:visited{
+    background-color: black;
+    color: lawngreen;
+}
+
+/* 3. hover */
+a:hover{
+    font-size: 200px;
+    background-color: rgb(26, 215, 171);
+    border-radius: 40px;
+}
+
+a:active{
+    background-color: darkcyan;
+    color: black;
+}
