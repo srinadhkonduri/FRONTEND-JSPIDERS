@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(220, 228, 220);
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+    background-image: linear-gradient(45deg,red,blue,green);
+    background-position: 5000px;
+    background-size: 5000px;
+    background-clip: text;
+    color: transparent;
+    font-size: 100px;
+    transition: background-image 1s,font-size 1s,font-family,background-position 1s;
+}
+
+h2:hover{
+    background-image: repeating-linear-gradient(75deg,violet,green,blue,red,orange,gold);
+    font-size: 200px;
+    font-family: cursive;
+    background-position: 0px;
+}

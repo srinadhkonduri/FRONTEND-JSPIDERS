@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    height: 0px;
+    box-sizing: border-box;
+}
+#donout{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(violet,indigo,blue,green,yellow,orange,red);
+    border-radius: 50%;
+}
+
+#circle{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

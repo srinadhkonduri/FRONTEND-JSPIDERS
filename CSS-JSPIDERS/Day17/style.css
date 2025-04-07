@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    
+}
+.container:hover{
+    background-color: orange;
+    border-radius: 100%;
+    border: 5px solid black;
+    transition: background-color 2s,border-radius 2s;
+}

@@ -1,0 +1,13 @@
+.btn{
+    color: red;
+    background-color: gray;
+    font-size: 100px;
+    border-radius: 30px;
+    border: 10px double gold;
+}
+.btn:hover{
+    color: green;
+    background-color: orange;
+    transform: translateY(10px);
+    border: 20px solid gray;
+}

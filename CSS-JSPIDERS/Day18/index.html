@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glassmorphism Charminar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #d9a7c7 0%, #fffcdc 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        fieldset {
+            width: 500px;
+            padding: 20px;
+            border: none;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.5s ease-in-out;
+        }
+
+        fieldset::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-image: url('../../../asserts/images/charminar2');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            opacity: 0.25;
+            z-index: 0;
+        }
+
+        legend {
+            font-size: 2.2rem;
+            color: #fff;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+            z-index: 1;
+            position: relative;
+        }
+
+        p {
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: justify;
+            z-index: 1;
+            position: relative;
+        }
+
+        fieldset:hover {
+            transform: scale(1.02);
+        }
+
+        legend:hover {
+            color: #ffe600;
+        }
+
+        @media (max-width: 600px) {
+            fieldset {
+                width: 90%;
+                margin: 20px;
+            }
+
+            legend {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Hyderabad</legend>
+        <p>
+            The Charminar is famous as a symbol of Hyderabad, a UNESCO World Heritage Site, and an iconic monument
+            showcasing Indo-Islamic architecture. It is also a popular tourist destination and a site for religious and
+            cultural celebration. In 1591, the ruler of the Qutub Shahi dynasty, Sultan Muhammad Quli Qutub Shahi, got
+            this masterpiece constructed after visiting Hyderabad from Golconda. The four minarets of Charminar
+            represent the four directions — North, East, South, and West — signifying glory and protection from all
+            sides of the world.
+        </p>
+    </fieldset>
+</body>
+
+</html>
