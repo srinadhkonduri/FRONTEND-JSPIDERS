@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 15%;
+    margin: 20px;
+    border-radius: 20px;
+}
+#blur:hover{
+    /* gives the blur effect for the image */
+    filter: blur(50px);
+}
+#bright:hover{
+    /* increase the brightness of the image */
+    filter: brightness(200%);
+}
+#contrast:hover{
+    /* increase quality of the image */
+    filter: contrast(150%);
+}
+#gray:hover{
+    /* changes color to black or white */
+    filter: grayscale(100%);
+}
+#opa:hover{
+    /* ranges between 0 to 1 */
+    filter: opacity(0.5);
+}
+#hue:hover{
+    /* changes the color of the image */
+    filter: hue-rotate(50deg);
+}
+#inv:hover{
+    /* changes the color for the whole body of the image */
+    filter: invert(80%);
+}
+#sat:hover{
+    /* increases the saturation of the image  */
+    filter: saturate(2);
+}
+#sepia:hover{
+    filter: sepia(30%);
+}
+#shadow{
+    filter: drop-shadow(8px 8px 8px rgb(62, 61, 57));
+}

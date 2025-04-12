@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-size: 130px;
+    color: blue;
+    margin-top: 290px;
+    float: left;
+    padding-left: 110px;
+    animation-name: letters;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes letters {
+    0%{
+        transform: translate(0px,-600px);
+    }
+    20%{
+        transform: translate(0px, 400px) rotate(60deg) rotateX(30deg);
+    }
+    40%{
+        transform: translate(0px,200px) rotate(-60deg) rotateX(360deg);
+    }
+    60%{
+        transform: translate(0px,-500px) rotate(210deg) rotateX(270deg);
+    }
+    80%{
+        transform: translate(0px,-400px) rotate(360deg) rotateX(360deg);
+    }
+    100%{
+        transform: translate(0px, 0px) rotate(0deg) rotateX(360deg);
+    }
+    
+}
+
+#s{
+    animation-delay: 0.005ms;
+    animation-direction: alternate-reverse;
+}
+#r{
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+}
+#i{
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+}
+#n{
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+#a{
+    animation-delay: 0.05ms;
+    animation-direction: alternate-reverse;
+}
+#d{
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+}
+#h{
+    animation-delay: 0.05s;
+    animation-direction: alternate-reverse;
+}

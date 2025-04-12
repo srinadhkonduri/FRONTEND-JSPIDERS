@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    background-color: lightblue;
+    font-size: 150px;
+    cursor: url(../../../asserts/images/rocket_image-removebg-preview.jpg),pointer;
+}
+html,body{
+    cursor: url(../../../asserts/images/rocket_image-removebg-preview.jpg),pointer;
+    
+}

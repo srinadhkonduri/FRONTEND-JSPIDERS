@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 300px;
+    animation-name: car;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-iteration-count: 2;
+    /* animation-delay: 1s; */
+    /* for alternate we should use animation iteration count otherwise it won't work.*/
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+}
+/* @keyframes car {
+    0%, 100%{
+        transform: translate(0px,0px);
+    }
+    10%, 90%{
+        transform: translate(200px, 200px) rotate(60deg) scale(1.5);
+    }
+    20%, 80%{
+        transform: translate(400px, 400px) rotate(90deg) scale(1.5);
+    }
+    30%, 70%{
+        transform: translate(600px, 600px) rotate(180deg) scale(1.5);
+    }
+    40%, 60%{
+        transform: translate(900px, 300px) rotate(270deg) scale(1.5);
+    }
+    50%, 50%{
+        transform: translate(1200px, 0px) rotate(360deg) scale(1.5);
+    }
+} */
+
+@keyframes car {
+    form {
+        transform: translate(0px, 0px) rotate(60deg);
+    }
+    to{
+        transform: translate(500px, 500px) rotate(360deg) scale(1.5);
+    }
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ] */
+h1{
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    background-image: repeating-linear-gradient(67deg,orange,green,red,blue,skyblue,gold,black);
+    background-clip: text;
+    color: transparent;
+}
+#default:hover{
+    cursor: default;
+    background-position: 2000px;
+}
+#context:hover{
+    cursor: zoom-in;
+}
+#pointer:hover{
+    cursor: pointer;
+}
+#cross:hover{
+    cursor: crosshair;
+}
+#row:hover{
+    cursor: row-resize;
+}
+#vertical-text{
+    cursor: vertical-text;
+}
+#grabbing{
+    cursor: grabbing;
+}

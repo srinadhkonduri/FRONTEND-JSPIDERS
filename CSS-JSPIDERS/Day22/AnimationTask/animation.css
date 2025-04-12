@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.container{
+    font-size: 100px;
+    color: aqua;
+    padding-top: 300px;
+    padding-left: 250px;
+}
+h1{
+    float: left;
+    padding-left: 10px;
+    text-shadow: -10px -10px 10px red;
+    animation-name: names;
+    animation-duration: 10s;
+}
+
+@keyframes names {
+    0%{
+        transform: translate(0px, 0px) ;
+    }
+    20%{
+        transform: translate(0px, -300px) rotateY(-360deg);
+        text-shadow: -10px -10px 10px yellow;
+    }
+    40%{
+        transform: translate(0px, 0px);
+    }
+    60%{
+        transform: translate(0px, -300px) scale(1.5);
+        text-shadow: -10px -10px 10px green;
+    }
+    80%{
+        transform: translate(0px , 0px);
+    }
+    90%{
+        transform: translate(0px, -300px) rotateY(360deg);
+        text-shadow: -10px -10px 10px blue;
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+
+
+#s{
+    animation-duration: 5s;
+}
+#r{
+    animation-duration: 5.5s;
+}
+#i{
+    animation-duration: 6s;
+}
+#n{
+    animation-duration: 6.5s;
+}
+#a{
+    animation-duration: 7s;
+}
+#d{
+    animation-duration: 7.5s;
+}
+#h{
+    animation-duration: 8s;
+}

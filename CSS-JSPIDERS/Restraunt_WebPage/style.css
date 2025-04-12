@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navBar{
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+.context-menu{
+    width: 30%;
+    margin-left: 43%;
+    word-spacing: 8px;
+    font-size: 20px;
+}
+.context-menu a{
+    text-decoration: none;
+}
+
+/* design of the header content  */
+.header-container{
+    width: 100%;
+    height: 700px;
+    background-image: url(../../asserts/images/realistic-pizza-background-menu-poster-vector-29630830.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+/* styling section container
+ */
+.section-container{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(213, 213, 45);
+    h1{
+        font-size: 50px;
+        text-align: center;
+        color: rgb(64, 64, 67);
+        padding-top: 20px;
+    }
+}
+
+/* styling menu tag */
+.menu-content{
+    margin-left: 5%;
+    width: 90%;
+    height: 700px;
+    /* background-color: palegoldenrod; */
+}
+
+.menu-content>div{
+    float: left;
+    height: 120px;
+    width: 250px;
+    background-color: rgb(219, 210, 210);
+    margin-top: 90px;
+    margin-left: 70px;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+#box1,a{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+/* section container 2 styling */
+.section-container2{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(5, 5, 5);
+}
+
+.section-container2,.div1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 35px;
+    a{
+        text-decoration: none;
+        color: green;
+    }
+}
+
+.section-container2,.div2{
+    padding-top: 40px;
+}
+
+.section-container2,.div3{
+    padding-top: 40px;
+}
+
+.section-container2,.div4{
+    padding-top: 40px;
+}
+
+
+/* styling the footer section */
+
+footer{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(223, 128, 128);
+}
+footer>h3{
+    font-size: 50px;
+    text-align: center;
+}
