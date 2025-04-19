@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    height: 830px;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subDiv{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-left: 80px;
+    margin-top: 70px;
+    text-align: center;
+    align-content: center;
+    font-size: 80px;
+    border-radius: 30px;
+}
+.subDiv:hover{
+    background-color: indianred;
+    box-shadow: 10px 10px 10px red;
+}

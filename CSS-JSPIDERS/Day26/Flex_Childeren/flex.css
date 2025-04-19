@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 350px;
+    background-color: aqua;
+    display: flex;
+}
+.subDiv{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border: 5px solid black;
+    font-size: 100px;
+}
+
+#a1{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    /* order: 3; */
+    flex-grow: 1;
+}
+#a2{
+    /* order: 0; */
+    flex-grow: 1;
+}
+#a3{
+    flex-shrink: 1;
+    flex-basis: 900px;
+}

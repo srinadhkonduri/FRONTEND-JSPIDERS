@@ -1,0 +1,48 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-left: 20%;
+    margin-top: 20%;
+}
+p{
+    width: 170px;
+    height: 170px;
+    background-color: blueviolet;
+    float: left;
+    align-content: center;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+#p1{
+    transform: translate(1300px, 0px);
+    animation-name: para;
+    animation-duration: 3s;
+}
+#p2{
+    transform: translate(1300px,0px);
+}
+#p4{
+    transform: translate(1100px,0px);
+}
+#p5{
+    transform: translate(1100px,0px);
+}
+
+@keyframes para {
+    0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(-900px,0px);
+    }
+}
+
+#p3:hover{
+    animation-name: para;
+    animation-duration: 3s;
+}
