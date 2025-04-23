@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    margin: 5% 30% 0% 30%;
+    border-radius: 20px;
+    background-color: gray;
+
+}
+input{
+    height: 40px;
+}
+input::first-letter{
+    font-size: 30px;
+}
+button{
+    width: 5%;
+    height: 45px;
+    background-color: rgb(28, 203, 230);
+    border-radius: 50px;
+}
+
+#num1,#num2{
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+#result{
+    margin-top: 2%;
+}

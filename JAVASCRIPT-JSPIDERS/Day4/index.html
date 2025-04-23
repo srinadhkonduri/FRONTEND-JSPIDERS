@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <center>
+        <div class="container">
+            <h2>Simple calculator</h2>
+            <input type="number" id="num1" placeholder="Enter num 1">
+            <br>
+            <br>
+            <input type="number" id="num2" placeholder="enter num 2">
+            <br>
+            <br>
+            <button onclick="calculate('+')">+</button>
+            <button onclick="calculate('-')">-</button>
+            <button onclick="calculate('*')">*</button>
+            <button onclick="calculate('/')">/</button>
+            <button onclick="calculate('%')">%</button>
+            <button onclick="calculate('**')">**</button>
+    
+            <h1 id="result">result : </h1>
+        </div>
+    </center>
+
+    <script>
+        function calculate(operator){
+            let num1 = parseFloat(document.getElementById('num1').value);
+            let num2 = parseFloat(document.getElementById('num2').value);
+
+            let result = 0;
+
+            switch(operator){
+                case '+':
+                result = num1+num2;
+                break;
+
+                case '-':
+                result = num1-num2;
+                break;
+
+                case '*':
+                result = num1*num2;
+                break;
+
+                case '/':
+                result = num1/num2;
+                break;
+
+                case '%':
+                result = num1 % num2;
+                break;
+
+                case '**':
+                result = num1**num2;
+                break;
+                
+                default:
+                document.alert("invalid input");
+                return;
+            }
+            document.getElementById('result').textContent = "result : " + result;
+        }
+    </script>
+</body>
+</html>

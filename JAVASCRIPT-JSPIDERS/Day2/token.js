@@ -98,12 +98,10 @@ function fun2(){
 
 fun2();
 
-if(true){
-    let name = "alice"
-    const age = 25;
-    console.log(name + " " + age);
+let name = "alice"
+const age = 25;
+console.log(name + " " + age);
     
-}
 
 for (let i = 0; i <= 3; i++) {
     console.log("inside block : " + i);

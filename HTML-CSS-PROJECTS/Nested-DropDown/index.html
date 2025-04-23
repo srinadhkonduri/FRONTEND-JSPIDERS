@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        nav{
+            background-color: #333;
+            padding: 20px 10px;
+            color: #fff;
+        }
+        .main-menu{
+            display: flex;
+            list-style: none;
+            font-family: cursive;
+            cursor: pointer;
+        }
+        .menu-item,.sub-menu-item{
+            position: relative;
+            padding: 10px 20px;
+        }
+        .menu-item a{
+            text-decoration: none;
+            color: white;
+        }
+        .menu-item:hover, .sub-menu-item:hover{
+            background-color: #575757;
+        }
+        .dropdown{
+            display: none;
+            min-width: 200px;
+            background-color: #444;
+            list-style: none;
+            position: absolute;
+            top: 100%;
+            left: 0%;
+            z-index: 1;
+            border-radius: 20px;
+        }
+        .sub-menu-item{
+            padding: 10px;
+        }
+        .main-menu:hover .dropdown{
+            display: block;
+        }
+        .sub-dropdown{
+            position: absolute;
+            top: 0;
+            left: 100%;
+            min-width: 200px;
+            display: none;
+            background-color: #444;
+            list-style: none;
+            border-radius: 20px;
+        }
+        .sub-menu-item:hover .sub-dropdown{
+            display: block;
+            background-color: #333;
+        }
+        .sub-dropdown2{
+            position: absolute;
+            top: 0%;
+            left: 100%;
+            min-width: 200px;
+            background-color: #444;
+            list-style: none;
+            display: none;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .sub-menu-item2{
+            padding: 10px;
+        }
+        .sub-menu-item2:hover{
+            background-color: #575757;
+            border-radius: 20px;
+        }
+        .sub-menu-item:hover .sub-dropdown2{
+            display: block;
+        }
+        .sub-dropdown3{
+            position: absolute;
+            left: 100%;
+            top: 0;
+            background-color: #444;
+            min-width: 200px;
+            list-style: none;
+            padding: 10px;
+            display: none;
+            border-radius: 20px;
+        }
+        .sub-menu-item3{
+            padding: 10px;
+        }
+        .sub-menu-item3:hover{
+            background-color: #333;
+        }
+        .sub-menu-item:hover .sub-dropdown3{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="main-menu">
+            <li class="menu-item"><a href="/">Home</a></li>
+            <li class="menu-item">Categories
+                <ul class="dropdown">
+                    <li class="sub-menu-item">Men
+                        <ul class="sub-dropdown">
+                            <li class="sub-menu-item">footwear</li>
+                            <li class="sub-menu-item">accessories</li>
+                            <li class="sub-menu-item">Clothing</li>
+                        </ul>
+                    </li>
+                    <li class="sub-menu-item">Women
+                        <ul class="sub-dropdown2">
+                            <li class="sub-menu-item2">jewelry</li>
+                            <li class="sub-menu-item2">makeup</li>
+                            <li class="sub-menu-item2">clothing</li>
+                        </ul>
+                    </li>
+                    <li class="sub-menu-item">Kids
+                        <ul class="sub-dropdown3">
+                            <li class="sub-menu-item3">clothing</li>
+                            <li class="sub-menu-item3">footwear</li>
+                            <li class="sub-menu-item3">toys</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
