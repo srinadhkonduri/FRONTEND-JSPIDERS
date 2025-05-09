@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="fun()">
+    <input type="text" placeholder="enter a name" id="inp">
+    <br><br>
+    <input type="button" value="submit" onclick="fun()">
+    <br><br>
+    <h1 id="name"></h1>
+
+    <!-- <input type="color" id="color" oninput="bgColour()"> -->
+    <!-- <b>Password : </b>
+    <input type="password" placeholder="enter password" id="pass" oninput="passwordLen()">
+    <br>
+    <span id="state"></span> -->
+
+    <div class="container">
+        <input type="password" id="inp">
+        <img src="./rocket_image-removebg-preview.jpg" onmousedown="visiblePassword()" onmouseup="hidePass()">
+    </div>
+
+    <!-- EVENT 6 IN JS -->
+    <!-- <marquee scrollamount="30" direction="">
+        <img src="../../asserts/images/spiderman.gif" alt="">
+    </marquee> -->
+
+
+    <!-- EVENT 7 IN JS -->
+    <div id="container" onmouseover="fun()" onmouseleave="fun()">
+
+    </div>
+
+    <select id="colour" onchange="fun()">
+        <option>red</option>
+        <option>blue</option>
+        <option>green</option>
+        <option>pink</option>
+        <option>violet</option>
+        <option>indigo</option>
+    </select>
+
+</body>
+</html>

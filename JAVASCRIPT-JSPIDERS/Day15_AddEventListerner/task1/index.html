@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Translator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        select,
+        input,
+        button {
+            padding: 8px;
+            margin: 10px 0;
+            display: block;
+            width: 100%;
+            max-width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="userInput" placeholder="Enter a message like 'Hi, good morning'" />
+        <select id="languageSelector">
+            <option value="Telugu">Telugu</option>
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+            <option value="Kannada">Kannada</option>
+            <option value="Malayalam">Malayalam</option>
+            <option value="Marathi">Marathi</option>
+            <option value="Punjabi">Punjabi</option>
+        </select>
+        <button id="translateBtn">Translate</button>
+        <p id="target">Translation will appear here.</p>
+    </div>
+
+    <script>
+        // Basic translation dictionary
+        const translations = {
+            "hi, good morning": {
+                Telugu: "హాయ్, శుభోదయం",
+                Hindi: "हाय, शुभ प्रभात",
+                English: "Hi, good morning",
+                Kannada: "ಹಾಯ್, ಶುಭೋದಯ",
+                Malayalam: "ഹായ്, ശുഭോദയം",
+                Marathi: "हाय, शुभ सकाळ",
+                Punjabi: "ਹਾਇ, ਸ਼ੁਭ ਸਵੇਰ"
+            },
+            "how are you": {
+                Telugu: "మీరు ఎలా ఉన్నారు",
+                Hindi: "आप कैसे हैं",
+                English: "How are you",
+                Kannada: "ನೀವು ಹೇಗಿದ್ದೀರಿ",
+                Malayalam: "സുഖമാണോ?",
+                Marathi: "तुम्ही कसे आहात?",
+                Punjabi: "ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ?"
+            }
+        };
+
+        const userInput = document.getElementById("userInput");
+        const languageSelector = document.getElementById("languageSelector");
+        const target = document.getElementById("target");
+        const translateBtn = document.getElementById("translateBtn");
+
+        translateBtn.addEventListener("click", function () {
+            const text = userInput.value.trim().toLowerCase();
+            const lang = languageSelector.value;
+
+            if (translations[text] && translations[text][lang]) {
+                target.innerText = translations[text][lang];
+            } else {
+                target.innerText = "Translation not available for this phrase.";
+            }
+        });
+    </script>
+</body>
+
+</html>

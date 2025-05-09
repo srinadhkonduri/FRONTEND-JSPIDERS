@@ -49,7 +49,8 @@ console.log(arr5);
 
 // splice method
 let arr6 = ["apple","banana","grapes","oranges","water-melon"];
-let arr10 = arr6.splice(2,3);
+let val6 = arr6.slice(1,2);
+let arr10 = arr6.splice(2,2,"red","blue");
 console.log(arr10);
 
 // reverse method

@@ -1,0 +1,7 @@
+DATA TYPES IN JS
+
+PRIMITIVE               SPECIAL                 COMPOSITE
+---------               -------                 ---------
+number                  undefined               array
+string                  null                    object
+boolean

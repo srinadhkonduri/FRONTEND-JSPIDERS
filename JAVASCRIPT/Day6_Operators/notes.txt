@@ -1,0 +1,29 @@
+ARITHMETIC OPERATORS
+-> add => 2 + 4 = 6, 
+subtract => 4 - 2 = 2, 
+multiply => 5*2 = 10, 
+divide => 4/2 = 2 => remainder, 
+modulus => 5%2 = 1 => quotient, 
+negate -(5) => -5
+
+COMPARISON OPERATORS
+. a == b -> returns true if both the values are the same.
+. a != b -> returns false if both the values add the same.
+. a > b -> true if a is greater than b.
+. a < b -> true if a is less than b.
+. a >= b -> true if a is greater than or equal to b.
+. a <= b -> true if a is less than or equal to b.
+
+LOGICAL OPERATORS
+
+ASSIGNMENT OPERATORS
+
+TYPE OPERATORS
+
+BITWISE OPERATORS
+
+TERNARY OPERATORS
+
+UNARY OPERATORS
+i. ++
+ii. --

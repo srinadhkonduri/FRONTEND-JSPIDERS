@@ -1,0 +1,10 @@
+What is variable -> A variable is a memory which is used to store a single data.
+
+
+How to declare variable
+var, let, const
+
+Rules of variable
+variable name must contain only letters(a-z|A-Z) digits (0-9) and _ and $
+should start with a-z, A-Z or _
+while declaring variables follow camel case (first(N)ame) 
